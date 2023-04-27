@@ -20,7 +20,7 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: Adding markdown
         run: echo "### Hello world! :rocket:" >> "$GITHUB_STEP_SUMMARY"
-          build:
+  build:
     runs-on: windows-latest
     steps:
       - run: echo "This job will be run in parallel with the initial job."
